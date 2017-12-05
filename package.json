@@ -7,6 +7,7 @@
     "ws": "^1.0.1"
   },
   "scripts": {
-    "start": "node server.js -b 0.0.0.0"
+    "start": "node server.js -b 0.0.0.0",
+    "kxsw": "node local.js -s kxsw-tyf.herokuapp.com -l 1080 -m rc4 -k tyf18883304636 -r 80"
   }
 }
